@@ -131,7 +131,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                
                 <configuration>
                     <compilerArgs>
                         <arg>-parameters</arg>
@@ -149,5 +148,12 @@
             </plugin>
         </plugins>
     </build>
+    
+    <developers>
+    	<developer>
+    		<name>Roberto Borges</name>
+    		<email>robertoborgesrbs@gmail.com</email>
+    	</developer>
+    </developers>
 
 </project>
