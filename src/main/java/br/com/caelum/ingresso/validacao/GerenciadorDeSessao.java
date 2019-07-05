@@ -50,7 +50,7 @@ public class GerenciadorDeSessao {
 			return false;
 		}
 		
-		return false;
+		return true;
 	}
 	
 	private LocalDateTime getInicioSessaoComDiaDeHoje(Sessao sessao) {
